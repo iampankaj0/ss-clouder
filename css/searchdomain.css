@@ -1,0 +1,728 @@
+body{
+    line-height: 1.5;
+    color: #000;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+ul, li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+.nav-container{
+    background-color: transparent;
+}
+
+.nav-container>nav{
+    background-color: transparent!important;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-container>nav .nav-link{
+  color: #333!important;
+}
+
+.nav-section{
+    box-shadow: 0 0 16px -7px #000;
+}
+
+/* ============ NAVBAR DROPDOWN START ============ */
+/* ============ NAVBAR DROPDOWN START ============ */
+/* ============ NAVBAR DROPDOWN START ============ */
+/* ============ NAVBAR DROPDOWN START ============ */
+nav .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+nav  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0!important;
+  }
+  
+nav .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover{
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle:hover::after{
+  color: #DE5032;
+}
+
+.nav-section .dropdown-item{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* ============ NAVBAR DROPDOWN END ============ */
+/* ============ NAVBAR DROPDOWN END ============ */
+/* ============ NAVBAR DROPDOWN END ============ */
+/* ============ NAVBAR DROPDOWN END ============ */
+
+/* ============ FOOTER Start ============ */
+/* ============ FOOTER Start ============ */
+/* ============ FOOTER Start ============ */
+/* ============ FOOTER Start ============ */
+.footer-main-sec{
+    background-color: #333;
+  }
+  
+  .logo-sec{
+    flex: 3;
+    background-color: #b63837;
+    padding: 100px 13px!important;
+  }
+  
+  .logo-sec img{
+    width: 180px;
+  }
+  
+  .link-sec{
+    flex: 10;
+  }
+  
+  .search-sec p{
+    flex: 5;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 0;
+    padding: 0 40px;
+    text-align: center;
+  }
+  
+  .search-sec input{
+    flex: 9;
+    border: none;
+    background: #333;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    color: #fff;
+  }
+  
+  .search-sec .form-control:focus{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    outline: none!important;
+  }
+  
+  
+  .links p{
+    color: #999;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .links a:hover{
+    text-decoration: underline;
+  }
+  
+  .social-links .copyright{
+    color: #fff;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+  }
+  
+  .social-links .social-icons i{
+    font-size: 20px;
+  }
+  
+  .social-links .social-icons .facebook{
+    color: 	#4267B2;
+  }
+  .social-links .social-icons .instagram{
+    color: #F77737;
+  }
+  .social-links .social-icons .twitter{
+    color: #1DA1F2;
+  }
+  .social-links .social-icons .linkedin{
+    color: #0e76a8 ;
+  }
+  .social-links .social-icons .youtube{
+    color: 	#FF0000;
+  }
+  
+  
+  .social-links .social-icons .facebook:hover,
+  .social-links .social-icons .instagram:hover,
+  .social-links .social-icons .twitter:hover,
+  .social-links .social-icons .linkedin:hover,
+  .social-links .social-icons .youtube:hover {
+    color: #fff;
+    transition: .3s;
+  }
+  
+  
+  .log-in-sec li a:hover i{
+    padding-left: 3px;
+    transition: .5s;
+  }
+
+
+
+@media screen and (max-width: 1002px){
+    .logo-sec {
+        display: none;
+    }
+
+    .search-sec p {
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 991px){
+    .links p {
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (max-width: 887px){
+    .search-sec {
+        display: block!important;
+    }
+
+    .link-sec {
+        padding-left: 3rem;
+    }
+
+    .links {
+        padding-left: 0!important;
+    }
+
+    .social-links {
+        padding-left: 0!important;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .social-links {
+        display: block!important;
+        text-align: center;
+    }
+
+    .social-links .copyright {
+        margin-bottom: 15px!important;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .link-sec {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+}
+
+/* ============ FOOTER Ends ============ */
+/* ============ FOOTER Ends ============ */
+/* ============ FOOTER Ends ============ */
+
+
+
+
+
+
+
+
+
+
+/* === Banner Image Section Start === */
+.banner-image-sec .banner-img-div{
+    background-image: url("../images/search-domain-banner.jpg")!important;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.image-overlap-text{
+    color: #fff;
+    padding-top: 90px;
+}
+
+.image-overlap-text p{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px!important;
+}
+
+.image-overlap-text h1{
+    font-weight: 700;
+    margin-bottom: 20px!important;
+}
+
+.inp-btn-sec input{
+    width: 800px;
+}
+
+.inp-btn-sec button{
+    color: #fff;
+    background-color: #b63838;
+    margin-left: 15px;;
+    text-transform: uppercase;
+}
+
+.inp-btn-sec button:hover{
+    color: #fff;
+    background-color: #A43D3D;
+}
+
+.inp-btn-sec button:focus{
+    outline: none;
+}
+
+.image-overlap-text a.domain-transfer{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.image-overlap-text a.domain-transfer:hover i{
+    padding-left: 3px;
+    transition: .5s;
+}
+/* === Banner Image Section Ends === */
+
+
+
+/* === popular domain extensions Starts === */
+.popular-ext{
+    margin-top: -100px;
+    margin-bottom: 55px;
+}
+
+.popular-ext .popular-ext-h{
+    font-size: 27px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 27px;
+}
+
+
+.popular-ext .card{
+    box-shadow: 0px 10px 19px -17px #333;
+}
+
+.popular-ext .dom-srch-btn{
+    color: #000;
+    background-color: transparent;
+    border: 2px solid #000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.popular-ext .dom-srch-btn:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.popular-ext .card h2{
+    font-size: 3rem;
+    color: #333;
+}
+
+.popular-ext .card h2>span{
+    color: #b63837;
+}
+
+.popular-ext .card p{
+    color: #333;
+}
+
+.popular-ext .card p.domain-price{
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.popular-ext .col-md-4{
+    margin-bottom: 20px;
+}
+/* === popular domain extensions Ends === */
+
+
+/* === RIGHT DOMAIN START === */
+.right-domain h2{
+    font-size: 42px;
+    font-weight: 700
+}
+.right-domain p{
+    font-size: 26px;
+    font-weight: lighter;
+    color: #333;
+}
+
+.right-domain ul li{
+    list-style: disc;
+    margin: 0 0 5px 15px;
+    color: #333;
+}
+
+.right-domain .dom-best-btn{
+    margin-top: 10px;
+    color: #fff;
+    background-color: #000;
+}
+
+.right-domain .dom-best-btn:hover{
+    background-color: #333;
+}
+
+.right-domain .dom-best-btn:focus{
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* === RIGHT DOMAIN ENDS === */
+
+
+
+
+/* === Domain Choose Start === */
+.domain-choose{
+    margin-top: 60px;
+}
+
+.domain-choose-h{
+    text-align: center;
+}
+
+.domain-choose-h h2{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.domain-choose-h p{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.domain-choose .source,
+.domain-choose .covered,
+.domain-choose .simple {
+    display: flex;
+}
+
+.domain-choose .source h2,
+.domain-choose .covered h2,
+.domain-choose .simple h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.domain-choose .source p,
+.domain-choose .covered p,
+.domain-choose .simple p{
+    font-size: 16px;
+    color: #333;
+    font-weight: lighter;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.domain-choose .row{
+    margin-top: 40px;
+}
+/* === Domain Choose Ends === */
+
+
+
+/* === Frequently SAsked Questions Start */
+.faqs-section{
+    margin-top: 60px;
+}
+
+.faq-section-h h2{
+    color: #333;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+}
+
+.faqs-section .accordion .fa{
+    margin-right: 0.5rem;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+    width: 1rem;
+}
+
+.faqs-section .accordion h2>a{
+    text-align: left;
+}
+
+.faqs-section .accordion .card{
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0px 2px 15px -9px #333;
+}
+
+.faqs-section .accordion .card .card-header{
+    background-color: transparent;
+    border: none;
+}
+
+.faqs-section .card .card-body p{
+    padding-left: 43px;
+}
+
+.faqs-section .card .card-body{
+    padding-top: 0;
+}
+
+.faqs-section h2>a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.faqs-section h2>a i{
+    color: #e24747;
+}
+
+.faqs-section h2>a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+.faqs-section .card .card-body p>a,
+.faqs-section .accordion .card ul li a{
+    color: #2a9dbc;
+    font-weight: 700;
+}
+
+.faqs-section .accordion .card ul li{
+    list-style: disc;
+    margin-left: 60px;
+    padding-bottom: 10px;
+}
+/* === Frequently SAsked Questions Ends */
+
+
+
+/* === Learn More Section Start */
+.learn-more-section{
+    margin-top: 60px;
+}
+
+.learn-more-section .card{
+    box-shadow: 0px 2px 15px -9px #333;
+}
+
+.learn-more-section h2{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.learn-more-section p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.learn-more-section a{
+    font-size: 16px;
+    color: #2a9dbc;
+    font-weight: 700;
+}
+
+.learn-more-section a:hover i{
+    padding-left: 3px;
+    transition: .5s;
+}
+/* === Learn More Section Ends */
+
+
+/* Disclaimer Starts */
+.disclaimer p{
+    margin-top: 60px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.disclaimer p>a{
+    color: #2a9dbc;
+    font-weight: 700;
+}
+/* Disclaimer Ends */
+
+
+
+/* footer Links Start */
+.footer-links{
+    padding: 50px 0;
+    margin-top: 60px;
+    border-top: 1px solid #b9b9b9;
+}
+
+.footer-links p{
+    font-weight: 700;
+    flex: 1;
+    text-align: center;
+    color: #333;
+}
+
+.footer-links p>a{
+    color: #2a9dbc;
+    font-weight: 700;
+}
+
+.footer-links p>a:hover i{
+    padding-left: 3px;
+    transition: .5s;
+}
+/* Footer Links Ends */
+
+
+
+
+
+
+/* ====== Media Quries Strat ====== */
+/* ====== Media Quries Strat ====== */
+/* ====== Media Quries Strat ====== */
+
+
+@media screen and (max-width: 992px) {
+    .inp-btn-sec input{
+        width: 500px;
+    }
+    .image-overlap-text h1{
+        font-size: 28px;
+    }
+    .right-domain h2{
+        font-size: 18px;
+    }
+    .right-domain p{
+        font-size: 16px;
+    }
+    .right-domain ul li{
+        margin-bottom: 3px;
+    }
+    .learn-more-section .img-sec img{
+        width: 320px;
+    }
+    
+    .domain-choose-h h2{
+        font-size: 22px;
+    }
+
+    .footer-links .links{
+        display: block!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inp-btn-sec input{
+        width: 375px
+    }
+
+    .popular-ext .popular-ext-h{
+        font-size: 20px;
+    }
+
+    .right-domain .img-col{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .right-domain .text-col{
+        order: 2;
+    }
+
+    .right-domain .dom-best-btn{
+        width: 100%;
+    }
+    .learn-more-section .img-txt-sec{
+        display: block!important;
+    }
+    .learn-more-section .img-sec{
+        margin: 20px 0 0 0;
+    }
+    .learn-more-section .img-sec img{
+        display: block;
+        margin: 0 auto!important;
+        width: 230px;
+    }
+    .learn-more-section .txt-sec{
+        padding: 0!important;
+        margin: 20px 0;
+    }
+    .popular-ext .card h2{
+        font-size: 2.5rem;
+    }
+    .faq-section-h h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 523px) {
+    .inp-btn-sec{
+        display: block!important;
+        text-align: center;
+    }
+    .inp-btn-sec input{
+        width: 100%;
+    }
+
+    .inp-btn-sec button{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .inp-btn-sec .form-group{
+        margin-bottom: .3rem;
+    }
+
+    .image-overlap-text h1 {
+        font-size: 20px;
+    }
+
+    .popular-ext .card h2{
+        font-size: 2rem;
+    }
+    .faq-section-h h2{
+        font-size: 22px;
+    }
+    
+    .faqs-section h2>a{
+        font-size: 16px;
+    }
+}

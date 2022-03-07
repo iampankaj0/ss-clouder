@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C548BF30-6031-45CE-B520-8D271231B0C6</title>
+    <g id="High-Fidelity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="S-Mobile---Domain-Search---v01" transform="translate(-238.000000, -3393.000000)">
+            <g id=".o-features__fos-s" transform="translate(238.000000, 3237.000000)">
+                <g id=".o-feature-grid1x6__fos-s" transform="translate(-0.000000, 156.000000)">
+                    <g id=".a-graphic__feature-grid-01" transform="translate(-0.000000, 0.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                        <g id=".a-icon__thumbs-up" transform="translate(4.000000, 4.000000)" stroke-width="2">
+                            <polygon id="Path" stroke="#E24747" points="8.88888889 32 0 32 0 16 8.88888889 16"></polygon>
+                            <path d="M8.88888889,15.4482759 L13.5111111,0 L14.6666667,0 C16.5812538,0 18.1333333,1.48209186 18.1333333,3.31034483 L18.1333333,14.3448276 L28.5333333,14.3448276 C30.4479205,14.3448276 32,15.8269194 32,17.6551724 L32,18.7586207 L29.9500444,29.2932414 C29.6456957,30.860449 28.214972,31.9980284 26.5457778,32 L8.88888889,32 L8.88888889,15.4482759 Z" id="Path" stroke="#666666" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

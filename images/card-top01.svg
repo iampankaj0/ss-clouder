@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="586px" height="30px" viewBox="0 0 586 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>a-graphic__top01-xl</title>
+    <g id="High-Fidelity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="XL-Desktop---Full-Service---v02" transform="translate(-359.000000, -2312.000000)">
+            <g id=".o-product-overview__fos-xl" transform="translate(358.000000, 2141.000000)">
+                <g id=".m-features__grid1x2" transform="translate(1.000000, 170.000000)">
+                    <g id=".m-card__feature--large" transform="translate(0.000000, 1.000000)">
+                        <g id=".a-graphic__top01-xl" transform="translate(0.000000, -0.000000)">
+                            <path d="M5,4.54747351e-13 L581,4.54747351e-13 C583.761424,4.54240086e-13 586,2.23857625 586,5 L586,30 L586,30 L1.70530257e-13,30 L1.70530257e-13,5 C1.7019208e-13,2.23857625 2.23857625,4.55254616e-13 5,4.54747351e-13 Z" id="Rectangle-Copy-28" fill="#000000"></path>
+                            <path d="M60,30 C60,13.4314575 73.4314575,1.86446414e-11 90,1.86446414e-11 L90,1.86446414e-11 L150,1.95576888e-11 C150,16.5685425 136.568542,30 120,30 L120,30 Z" id="Combined-Shape" fill="#E24747"></path>
+                            <path d="M420,30 C420,13.4314575 433.431458,1.86446414e-11 450,1.86446414e-11 L450,1.86446414e-11 L510,1.95576888e-11 C510,16.5685425 496.568542,30 480,30 L480,30 Z" id="Combined-Shape-Copy-4" fill="#FFFFFF"></path>
+                            <path d="M150,30 C150,13.4314575 163.431458,1.86446414e-11 180,1.86446414e-11 L180,1.86446414e-11 L240,1.95576888e-11 C240,16.5685425 226.568542,30 210,30 L210,30 Z" id="Combined-Shape-Copy" fill="#FFFFFF" transform="translate(195.000000, 15.000000) scale(1, -1) translate(-195.000000, -15.000000) "></path>
+                            <path d="M280,30 C280,13.4314575 293.431458,1.86481941e-11 310,1.86481941e-11 L310,1.86481941e-11 L420,1.86517468e-11 C420,16.5685425 406.568542,30 390,30 L390,30 Z" id="Combined-Shape-Copy-3" fill="#B63837" transform="translate(350.000000, 15.000000) scale(1, -1) translate(-350.000000, -15.000000) "></path>
+                            <path d="M510,30 C510,13.4314575 523.431458,4.72510919e-13 540,4.72510919e-13 L540,4.72510919e-13 L586,1.79483095e-11 L586,25 C586,27.7614237 583.761424,30 581,30 L581,30 Z" id="Combined-Shape-Copy-5" fill="#E24747" transform="translate(548.000000, 15.000000) scale(1, -1) translate(-548.000000, -15.000000) "></path>
+                            <path d="M60,30 C60,13.4314575 46.5685425,2.27373675e-13 30,2.27373675e-13 C21.6666667,2.27373675e-13 13.3333333,2.27373675e-13 5,2.27373675e-13 C2.23857625,2.27880941e-13 -3.38176876e-16,2.23857625 0,5 C0,13.3333333 0,21.6666667 0,30 L60,30 Z" id="Oval" fill="#B63837"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

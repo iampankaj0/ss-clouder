@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="33px" viewBox="0 0 32 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>a-icon__handshake</title>
+    <g id="High-Fidelity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="XL-Desktop---Full-Service---v02" transform="translate(-776.000000, -3074.000000)" stroke-width="2">
+            <g id=".o-features__fos-xl" transform="translate(359.000000, 2739.000000)">
+                <g id=".m-features__grid3x2" transform="translate(3.000000, 168.000000)">
+                    <g id=".m-feature--icon" transform="translate(415.000000, 165.000000)">
+                        <g id=".a-icon__handshake" transform="translate(0.000000, 3.000000)">
+                            <path d="M18.5,19.5 L20.75,21.75 C21.7158768,22.7167557 21.7158768,24.2832443 20.75,25.25 L20.75,25.25" id="Path" stroke="#E65151" stroke-linecap="square"></path>
+                            <path d="M0,12 L0,0 L10.1,0 C10.4009277,0.000189631283 10.7015372,0.0195622467 11,0.058" id="Path" stroke="#E65151" stroke-linecap="square"></path>
+                            <rect id="Rectangle" stroke="#565656" stroke-linecap="square" transform="translate(4.250363, 16.250035) rotate(-45.000000) translate(-4.250363, -16.250035) " x="1.42186291" y="13.7750346" width="5.657" height="4.95" rx="2.475"></rect>
+                            <rect id="Rectangle" stroke="#565656" stroke-linecap="square" transform="translate(7.749757, 19.750388) rotate(-45.000000) translate(-7.749757, -19.750388) " x="4.72675683" y="17.2753882" width="6.046" height="4.95" rx="2.475"></rect>
+                            <rect id="Rectangle" stroke="#565656" stroke-linecap="square" transform="translate(11.114858, 23.385368) rotate(-45.000000) translate(-11.114858, -23.385368) " x="8.28635785" y="20.9103676" width="5.657" height="4.95" rx="2.475"></rect>
+                            <rect id="Rectangle" stroke="#565656" stroke-linecap="square" transform="translate(14.393698, 26.607002) rotate(-45.000000) translate(-14.393698, -26.607002) " x="11.9051984" y="24.4855019" width="4.977" height="4.243" rx="2.121"></rect>
+                            <path d="M22,16 L25.025,19.025 C25.4893431,19.4890151 25.7502359,20.1185516 25.7502359,20.775 C25.7502359,21.4314484 25.4893431,22.0609849 25.025,22.525 L25.025,22.525 C24.5609849,22.9893431 23.9314484,23.2502359 23.275,23.2502359 C22.6185516,23.2502359 21.9890151,22.9893431 21.525,22.525" id="Path" stroke="#E65151" stroke-linecap="square"></path>
+                            <path d="M24.75,18.75 C25.7167557,19.7158768 27.2832443,19.7158768 28.25,18.75 L28.25,18.75 C29.2158768,17.7832443 29.2158768,16.2167557 28.25,15.25 L19,6" id="Path" stroke="#E65151"></path>
+                            <path d="M19,6 L12.1,11.173 C11.4240206,11.6797709 10.5198461,11.7614408 9.764,11.384 L9.764,11.384 C9.12272579,11.0633676 8.674724,10.4539611 8.56000566,9.74623411 C8.44528732,9.03850715 8.67784538,8.31878588 9.185,7.812 L14.95,2.05 C16.2628579,0.737276077 18.0434333,-0.000133953422 19.9,0 L30,0 L30,12" id="Path" stroke="#565656" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

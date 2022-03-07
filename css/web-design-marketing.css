@@ -1,0 +1,908 @@
+body{
+    line-height: 1.5;
+    color: #000;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+ul, li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+a{
+    color: #2a9dbc;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #217389;
+    transition: .3s;
+}
+
+
+.btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-container{
+    background-color: transparent;
+}
+
+.nav-container>nav{
+    background-color: transparent!important;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-container>nav .nav-link{
+  color: #333!important;
+}
+
+.nav-section{
+    box-shadow: 0 0 16px -7px #000;
+}
+
+/* ============ NAVBAR DROPDOWN START ============ */
+/* ============ NAVBAR DROPDOWN START ============ */
+/* ============ NAVBAR DROPDOWN START ============ */
+/* ============ NAVBAR DROPDOWN START ============ */
+nav .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+nav  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0!important;
+  }
+  
+nav .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover{
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle:hover::after{
+  color: #DE5032;
+}
+
+.nav-section .dropdown-item{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* ============ NAVBAR DROPDOWN END ============ */
+/* ============ NAVBAR DROPDOWN END ============ */
+/* ============ NAVBAR DROPDOWN END ============ */
+/* ============ NAVBAR DROPDOWN END ============ */
+
+/* ============ FOOTER Start ============ */
+/* ============ FOOTER Start ============ */
+/* ============ FOOTER Start ============ */
+/* ============ FOOTER Start ============ */
+.footer-main-sec{
+    background-color: #333;
+  }
+  
+  .logo-sec{
+    flex: 3;
+    background-color: #b63837;
+    padding: 100px 13px!important;
+  }
+  
+  .logo-sec img{
+    width: 180px;
+  }
+  
+  .link-sec{
+    flex: 10;
+  }
+  
+  .search-sec p{
+    flex: 5;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 0;
+    padding: 0 40px;
+    text-align: center;
+  }
+  
+  .search-sec input{
+    flex: 9;
+    border: none;
+    background: #333;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    color: #fff;
+  }
+  
+  .search-sec .form-control:focus{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    outline: none!important;
+  }
+  
+  
+  .links p{
+    color: #999;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .links a:hover{
+    text-decoration: underline;
+  }
+  
+  .social-links .copyright{
+    color: #fff;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+  }
+  
+  .social-links .social-icons i{
+    font-size: 20px;
+  }
+  
+  .social-links .social-icons .facebook{
+    color: 	#4267B2;
+  }
+  .social-links .social-icons .instagram{
+    color: #F77737;
+  }
+  .social-links .social-icons .twitter{
+    color: #1DA1F2;
+  }
+  .social-links .social-icons .linkedin{
+    color: #0e76a8 ;
+  }
+  .social-links .social-icons .youtube{
+    color: 	#FF0000;
+  }
+  
+  
+  .social-links .social-icons .facebook:hover,
+  .social-links .social-icons .instagram:hover,
+  .social-links .social-icons .twitter:hover,
+  .social-links .social-icons .linkedin:hover,
+  .social-links .social-icons .youtube:hover {
+    color: #fff;
+    transition: .3s;
+  }
+  
+  
+  .log-in-sec li a:hover i{
+    padding-left: 3px;
+    transition: .5s;
+  }
+
+
+
+@media screen and (max-width: 1002px){
+    .logo-sec {
+        display: none;
+    }
+
+    .search-sec p {
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 991px){
+    .links p {
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (max-width: 887px){
+    .search-sec {
+        display: block!important;
+    }
+
+    .link-sec {
+        padding-left: 3rem;
+    }
+
+    .links {
+        padding-left: 0!important;
+    }
+
+    .social-links {
+        padding-left: 0!important;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .social-links {
+        display: block!important;
+        text-align: center;
+    }
+
+    .social-links .copyright {
+        margin-bottom: 15px!important;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .link-sec {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+}
+
+/* ============ FOOTER Ends ============ */
+/* ============ FOOTER Ends ============ */
+/* ============ FOOTER Ends ============ */
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+/* banner image section start */
+.banner-img-section{
+    background-image: url(../images/web-design-marketing-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 440px;
+    padding: 65px 0;
+}
+
+.banner-img-section .head p{
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.banner-img-section .head  h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+}
+
+.banner-img-section p{
+    color: #fff;
+    font-weight: lighter;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.banner-img-section li{
+    list-style: disc;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.banner-img-section .request-consultant{
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.banner-img-section .request-consultant:hover{
+    background-color: #222;
+}
+
+/* banner image section ends */
+
+
+
+
+/* scroll section start */
+.background-color-shade{
+    background-color: #fafafa;
+}
+
+/* SCROLL NAV START */
+.nav-section{
+  background-color: #fff;
+}
+
+.nav-section nav{
+  background-color: #fff!important;
+  justify-content: space-between;
+}
+
+.nav-section nav a{
+  color: #333!important;
+}
+
+.scroll-section .nav-link{
+  padding-right: 1.3rem!important;
+  padding-left: 1.3rem!important;
+}
+
+.scroll-section .navbar a.free-consultation{
+  color: #000!important;
+  border: 2px solid #000;
+  text-transform: uppercase;
+}
+  
+.scroll-section .navbar a.free-consultation:hover{
+    color: #fff!important;
+    background-color: #000;
+}
+/* SCROLL NAV ENDS */
+
+/* HOW IT WORKS START */
+.overview{
+  padding-top: 70px;
+}
+
+.overview .head h3{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+  margin-bottom: 30px;
+}
+
+.overview li{
+  display: flex;
+}
+
+.overview li span img{
+  padding-right: 15px;
+}
+
+.overview li .title{
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.overview li .title .feature-line-desktop{
+  display: block;
+  flex: 5;
+  height: 2px;
+  margin: 0 5px 0 20px;
+  background-color:#e24747;
+}
+
+.overview li span .feature-line-mobile{
+  display: block;
+  height: 100%;
+  margin: 10px 0;
+  background-color:#e24747;
+  width: 2px;
+}
+
+.overview li p{
+  color: #666;
+}
+
+/* HOW IT WORKS ENDS */
+
+/* intro-call section start */
+.intro-call-sec{
+  padding-top: 70px;
+}
+
+.intro-call-sec .row{
+  align-items: center;
+}
+
+.intro-call-sec .img-col img{
+  width: 80%;
+}
+
+.intro-call-sec .txt-col h3{
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+  text-transform: uppercase;
+}
+
+.intro-call-sec .txt-col p{
+  color: #666;
+}
+
+.intro-call-sec .txt-col .free-consult-btn{
+  color: #fff;
+  background-color: #000;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.intro-call-sec .txt-col .free-consult-btn:hover{
+  background-color: #333;
+}
+/* intro-call section ends */
+
+
+/* HARD-TO-BEAT WEB DESIGN SERVICES START */
+.design{
+  padding-top: 70px;
+}
+
+.design .head h3{
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.design .head p{
+  color: #666;
+  font-weight: lighter;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.design .card-section{
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%);
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.design .card-section img{
+  width: 190px;
+  height: 180px;
+}
+
+.design .card-section span.text-section{
+  padding: 10px 15px;
+}
+
+.design .row .col-lg-6:nth-child(1){
+  margin-bottom: 25px;
+}
+.design .row .col-lg-6:nth-child(2){
+  margin-bottom: 25px;
+}
+.design .card-section h3{
+  color: #666;
+  font-size: 20px;
+}
+.design .card-section p{
+  color: #333;
+  margin-bottom: 0;
+}
+/* HARD-TO-BEAT WEB DESIGN SERVICES ENDS */
+
+/* DRIVE TRAFFIC TO YOUR NEW SITE START */
+.marketing{
+  padding-top: 70px;
+}
+
+.marketing .head h3{
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.marketing .head p{
+  color: #666;
+  font-weight: lighter;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.marketing .card {
+  background-color: #fff;
+  height: 100%;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%);
+}
+
+.marketing .card img{
+  width: 100%;
+}
+
+.marketing .card .text-sec{
+  padding: 30px;
+  height: 100%;
+}
+
+.marketing .card .text-sec h3{
+  font-size: 20px;
+}
+.marketing .card .text-sec p{
+  color: #666;
+}
+/* DRIVE TRAFFIC TO YOUR NEW SITE ENDS */
+
+/* LOOK GREAT, GET NOTICED, & GENERATE LEADS START */
+.benefits{
+  padding-top: 70px;
+}
+
+.benefits .head h3{
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.benefits .head p{
+  color: #666;
+  font-weight: lighter;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.benefits .marketing-services li{
+  display: flex;
+}
+
+.benefits .marketing-services li img{
+  padding-right: 15px;
+}
+
+.benefits .marketing-services li h3{
+  font-size: 18px;
+}
+
+.benefits .marketing-services li p{
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.benefits .marketing-services .col-md-4:nth-child(1){
+  margin-bottom: 20px;
+}
+.benefits .marketing-services .col-md-4:nth-child(2){
+  margin-bottom: 20px;
+}
+.benefits .marketing-services .col-md-4:nth-child(3){
+  margin-bottom: 20px;
+}
+/* LOOK GREAT, GET NOTICED, & GENERATE LEADS ENDS */
+
+
+/* REQUEST A FREE CONSULTATION START */
+.consult-form{
+  padding-top: 70px;
+}
+
+.consult-form .card{
+  border: none;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%);
+}
+
+.consult-form .card .card-header{
+  background-color: transparent;
+}
+
+.consult-form .card .card-header p{
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.consult-form .card .card-body{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.consult-form .card label{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.consult-form .card input,
+.consult-form .card select{
+  margin-bottom: 20px;
+}
+
+.consult-form .card .submit-btn-form{
+  color: #fff;
+  background-color: #000;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 16px;
+  padding: 10px 20px;
+}
+.consult-form .card .submit-btn-form:hover{
+  background-color: #333;
+}
+/* REQUEST A FREE CONSULTATION ENDS */
+
+
+/* === Frequently SAsked Questions Start === */
+.faqs-section{
+    padding-top: 70px;
+    margin-top: 10px;
+  }
+  
+  .faq-section-h h2{
+    color: #333;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .faqs-section .accordion .fa{
+    margin-right: 0.5rem;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+    width: 1rem;
+  }
+  
+  .faqs-section .accordion h2>a{
+    text-align: left;
+  }
+  
+  .faqs-section .accordion .card{
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0px 2px 15px -9px #333;
+  }
+  
+  .faqs-section .accordion .card:last-child{
+    margin-bottom: 0;
+  }
+  
+  .faqs-section .accordion .card .card-header{
+    background-color: transparent;
+    border: none;
+  }
+  
+  .faqs-section .card .card-body p{
+    padding-left: 43px;
+  }
+  
+  .faqs-section .card .card-body{
+    padding-top: 0;
+  }
+  
+  .faqs-section h2>a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .faqs-section h2>a i{
+    color: #e24747;
+  }
+  
+  .faqs-section h2>a:hover{
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .faqs-section .card .card-body p>a,
+  .faqs-section .accordion .card ul li a{
+    color: #2a9dbc;
+    font-weight: 700;
+  }
+  
+  .faqs-section .accordion .card ul li{
+    list-style: disc;
+    margin-left: 60px;
+    padding-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .faq-section-h h2 {
+      font-size: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .faq-section-h h2 {
+      font-size: 22px;
+    }
+    .faqs-section h2>a{
+      font-size: 16px;
+    }
+  }
+  /* === Frequently SAsked Questions Ends === */
+
+/* scroll section ends */
+
+
+
+
+
+
+
+/* media Queries Start */
+/* media Queries Start */
+/* media Queries Start */
+/* media Queries Start */
+@media screen and (max-width: 991px) {
+    .banner-img-section{
+        height: auto;
+    }
+    .banner-img-section .head h1 {
+        font-size: 30px;
+    }
+    .banner-img-section p{
+        font-size: 20px;
+    }
+    .scroll-section section.nav-section.sticky-top{
+      display: none;
+    }
+    .overview li .title .feature-line-desktop{
+      display: none;
+    }
+    .overview .head h3 {
+      font-size: 30px;
+    }
+    .intro-call-sec .img-col img{
+      width: 100%;
+    }
+    .intro-call-sec .txt-col h3 {
+      font-size: 30px;
+    }
+    .design .head h3{
+      font-size: 30px;
+    }
+    .design .head p{
+      font-size: 20px;
+    }
+    .design .row .col-lg-6:nth-child(3){
+      margin-bottom: 25px;
+    }
+    .marketing .head h3{
+      font-size: 30px;
+    }
+    .marketing .head p{
+      font-size: 20px;
+    }
+    .benefits .head h3{
+      font-size: 30px;
+    }
+    .benefits .head p{
+      font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .banner-img-section{
+        background-position: left;
+        padding: 25px 0;
+    }
+    .intro-call-sec .img-col img {
+      width: 70%;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    .marketing .col-md-6{
+      margin-bottom: 30px;
+    }
+    .benefits .marketing-services .col-md-4:nth-child(4){
+      margin-bottom: 20px;
+    }
+    .benefits .marketing-services .col-md-4:nth-child(5){
+      margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .banner-img-section .head h1 {
+        font-size: 25px;
+    }
+    .banner-img-section p {
+        font-size: 18px;
+    }
+    .banner-img-section .request-consultant{
+        width: 100%;
+    }
+    .overview .head h3 {
+      font-size: 20px;
+    }
+    .overview {
+      padding-top: 30px;
+    }
+    .intro-call-sec {
+      padding-top: 30px;
+    }
+    .intro-call-sec .txt-col h3 {
+      font-size: 20px;
+    }
+    .intro-call-sec .txt-col .free-consult-btn{
+      width: 100%;
+    }
+    .design{
+      padding-top: 40px;
+    }
+    .design .head h3{
+      font-size: 20px;
+    }
+    .design .head p{
+      font-size: 18px;
+    }
+    .design .card-section{
+      display: block;
+    }
+    .design .card-section h3 {
+      font-size: 18px;
+    }
+    .design .card-section img {
+      width: 100%;
+      height: auto;
+      border-top-right-radius: 5px;
+    }
+    .design .card-section h3 {
+      padding: 15px 15px 0;
+    }
+    .design .card-section p {
+      padding: 0 0 0 15px;
+    }
+    .marketing .head h3{
+      font-size: 20px;
+    }
+    .marketing .head p{
+      font-size: 18px;
+    }
+    .benefits .head h3{
+      font-size: 20px;
+    }
+    .benefits .head p{
+      font-size: 18px;
+    }
+    .benefits {
+      padding-top: 40px;
+    }
+    .marketing {
+      padding-top: 40px;
+    }
+    .consult-form {
+      padding-top: 40px;
+    }
+}
+

@@ -1,0 +1,609 @@
+body{
+    line-height: 1.5;
+    color: #000;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+ul, li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+a{
+    color: #2a9dbc;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #217389;
+    transition: .3s;
+}
+
+
+.btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-container{
+    background-color: transparent;
+}
+
+.nav-container>nav{
+    background-color: transparent!important;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-container>nav .nav-link{
+  color: #333!important;
+}
+
+.nav-section{
+    box-shadow: 0 0 16px -7px #000;
+}
+
+/* ============ NAVBAR DROPDOWN START ============ */
+/* ============ NAVBAR DROPDOWN START ============ */
+/* ============ NAVBAR DROPDOWN START ============ */
+/* ============ NAVBAR DROPDOWN START ============ */
+nav .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+nav  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0!important;
+  }
+  
+nav .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover{
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle:hover::after{
+  color: #DE5032;
+}
+
+.nav-section .dropdown-item{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* ============ NAVBAR DROPDOWN END ============ */
+/* ============ NAVBAR DROPDOWN END ============ */
+/* ============ NAVBAR DROPDOWN END ============ */
+/* ============ NAVBAR DROPDOWN END ============ */
+
+/* ============ FOOTER Start ============ */
+/* ============ FOOTER Start ============ */
+/* ============ FOOTER Start ============ */
+/* ============ FOOTER Start ============ */
+.footer-main-sec{
+    background-color: #333;
+  }
+  
+  .logo-sec{
+    flex: 3;
+    background-color: #b63837;
+    padding: 100px 13px!important;
+  }
+  
+  .logo-sec img{
+    width: 180px;
+  }
+  
+  .link-sec{
+    flex: 10;
+  }
+  
+  .search-sec p{
+    flex: 5;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 0;
+    padding: 0 40px;
+    text-align: center;
+  }
+  
+  .search-sec input{
+    flex: 9;
+    border: none;
+    background: #333;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    color: #fff;
+  }
+  
+  .search-sec .form-control:focus{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    outline: none!important;
+  }
+  
+  
+  .links p{
+    color: #999;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .links a:hover{
+    text-decoration: underline;
+  }
+  
+  .social-links .copyright{
+    color: #fff;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+  }
+  
+  .social-links .social-icons i{
+    font-size: 20px;
+  }
+  
+  .social-links .social-icons .facebook{
+    color: 	#4267B2;
+  }
+  .social-links .social-icons .instagram{
+    color: #F77737;
+  }
+  .social-links .social-icons .twitter{
+    color: #1DA1F2;
+  }
+  .social-links .social-icons .linkedin{
+    color: #0e76a8 ;
+  }
+  .social-links .social-icons .youtube{
+    color: 	#FF0000;
+  }
+  
+  
+  .social-links .social-icons .facebook:hover,
+  .social-links .social-icons .instagram:hover,
+  .social-links .social-icons .twitter:hover,
+  .social-links .social-icons .linkedin:hover,
+  .social-links .social-icons .youtube:hover {
+    color: #fff;
+    transition: .3s;
+  }
+  
+  
+  .log-in-sec li a:hover i{
+    padding-left: 3px;
+    transition: .5s;
+  }
+
+
+
+@media screen and (max-width: 1002px){
+    .logo-sec {
+        display: none;
+    }
+
+    .search-sec p {
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 991px){
+    .links p {
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (max-width: 887px){
+    .search-sec {
+        display: block!important;
+    }
+
+    .link-sec {
+        padding-left: 3rem;
+    }
+
+    .links {
+        padding-left: 0!important;
+    }
+
+    .social-links {
+        padding-left: 0!important;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .social-links {
+        display: block!important;
+        text-align: center;
+    }
+
+    .social-links .copyright {
+        margin-bottom: 15px!important;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .link-sec {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+}
+
+/* ============ FOOTER Ends ============ */
+/* ============ FOOTER Ends ============ */
+/* ============ FOOTER Ends ============ */
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* banner image start */
+.banner-image-section{
+  background-image: url('../images/business-email-banner.jpg');
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  padding: 78px 0;
+}
+
+.banner-image-section .head h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.banner-image-section .txt-col p{
+  color: #fff;
+  font-weight: lighter;
+  font-size: 24px;
+}
+.banner-image-section .head>p {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+.banner-image-section li{
+  color: #fff;
+  list-style: disc;
+  margin-left: 15px;
+}
+
+.banner-image-section .get-workspace-btn{
+  color: #fff;
+  background-color: transparent;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.banner-image-section .get-workspace-btn:hover{
+  color: #000;
+  background-color: #fff;
+}
+
+.banner-image-section .img-col img{
+  width: 58%;
+  display: block;
+  margin-left: auto;
+}
+/* banner image ends */
+
+
+
+/* email-industry START */
+.email-industry{
+  padding-top: 70px;
+}
+
+.head h3{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+  margin-bottom: 20px;
+}
+
+.head p{
+  color: #666;
+  font-weight: lighter;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.email-industry .row{
+  align-items: center;
+}
+
+.email-industry .image-sec img{
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+
+.email-industry .get-workspace{
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.email-industry .get-workspace:hover{
+  background-color: #333;
+}
+/* email-industry ENDS */
+
+/* workspace-table strat */
+.workspace-table{
+  padding-top: 70px;
+}
+
+.workspace-table td.dark{
+  font-weight: 500;
+  color: #000;
+}
+.workspace-table td img{
+  margin-right: 10px;
+}
+.workspace-table .icon-text{
+  display: flex;
+}
+
+.workspace-table table td,
+.workspace-table table th{
+  border: 1px solid #dee2e6;
+  padding: 10px;
+}
+/* workspace-table Ends */
+
+
+
+/* === Frequently SAsked Questions Start === */
+.faqs-section{
+  padding-top: 70px;
+}
+
+.faq-section-h h2{
+  color: #333;
+  font-weight: lighter;
+  font-size: 30px;
+  text-align: center;
+}
+
+.faqs-section .accordion .fa{
+  margin-right: 0.5rem;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  top: 2px;
+  width: 1rem;
+}
+
+.faqs-section .accordion h2>a{
+  text-align: left;
+}
+
+.faqs-section .accordion .card{
+  margin-bottom: 30px;
+  border: none;
+  box-shadow: 0px 2px 15px -9px #333;
+}
+
+.faqs-section .accordion .card:last-child{
+  margin-bottom: 0;
+}
+
+.faqs-section .accordion .card .card-header{
+  background-color: transparent;
+  border: none;
+}
+
+.faqs-section .card .card-body p{
+  padding-left: 43px;
+}
+
+.faqs-section .card .card-body{
+  padding-top: 0;
+}
+
+.faqs-section h2>a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.faqs-section h2>a i{
+  color: #e24747;
+}
+
+.faqs-section h2>a:hover{
+  color: #000;
+  text-decoration: underline;
+}
+
+.faqs-section .card .card-body p>a,
+.faqs-section .accordion .card ul li a{
+  color: #2a9dbc;
+  font-weight: 700;
+}
+
+.faqs-section .accordion .card ul li{
+  list-style: disc;
+  margin-left: 60px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .faq-section-h h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .faq-section-h h2 {
+    font-size: 22px;
+  }
+  .faqs-section h2>a{
+    font-size: 16px;
+  }
+}
+/* === Frequently SAsked Questions Ends === */
+
+
+
+/* learn more start */
+
+.resources{
+  padding: 70px 0;
+}
+
+.resources .card{
+  border: none;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%);
+}
+
+.resources h2{
+  font-size: 20px;
+  font-weight: 500;
+  color: #666;
+}
+.resources p{
+  color: #666;
+}
+.resources .txt-sec{
+  padding-left: 30px;
+}
+/* learn more ends */
+
+
+
+
+
+
+/* Media Query Start */
+/* Media Query Start */
+/* Media Query Start */
+@media screen and (max-width: 991px) {
+  .banner-image-section .img-col img{
+    display: none;
+  }
+  .banner-image-section .head h1{
+    font-size: 30px;
+  }
+  .banner-image-section .txt-col>p{
+    font-size: 20px;
+  }
+  .head h3{
+    font-size: 30px;
+  }
+  .head p{
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .banner-image-section{
+    padding: 40px 0;
+  }
+  .email-industry .image-sec img{
+    margin-bottom: 30px;
+  }
+  .resources .img-txt-sec{
+    display: block!important;
+  }
+  .resources .img-sec img{
+    width: 60%;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  .resources .card{
+    padding-bottom: 20px;
+  }
+  .resources .txt-sec{
+    padding-left: 0px;
+  }
+}
+
+
+@media screen and (max-width: 575px) {
+  .banner-image-section .head h1{
+    font-size: 22px;
+  }
+  .banner-image-section .txt-col>p{
+    font-size: 18px;
+  }
+  .banner-image-section .get-workspace-btn{
+    width: 100%;
+  }
+  .head h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .head p{
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .email-industry .get-workspace{
+    width: 100%;
+  }
+  .email-industry,
+  .workspace-table {
+    padding-top: 40px;
+  }
+  .resources{
+    padding: 40px 0;
+  }
+  .faqs-section{
+    padding-top: 40px;
+  }
+}

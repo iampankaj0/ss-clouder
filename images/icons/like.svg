@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="31px" viewBox="0 0 32 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>a-icon__like</title>
+    <g id="High-Fidelity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="XL-Desktop---Full-Service---v02" transform="translate(-361.000000, -3070.000000)" stroke-width="2">
+            <g id=".o-features__fos-xl" transform="translate(359.000000, 2739.000000)">
+                <g id=".m-features__grid3x2" transform="translate(3.000000, 168.000000)">
+                    <g id=".m-feature--icon" transform="translate(0.000000, 164.000000)">
+                        <g id=".a-icon__like">
+                            <path d="M10,29.0000034 L25,29.0000034 C26.7477514,29.0024022 28.2350708,27.727557 28.5,26 L30,14 C30.0148052,13.1999037 29.7034912,12.4282096 29.1376408,11.8623592 C28.5717904,11.2965088 27.8000963,10.9851948 27,11 L18,11 L18,6.541 C17.9021106,4.27378993 16.9575973,2.12570911 15.353,0.521 C14.7663484,-0.0118128251 13.9209055,-0.149081048 13.1958158,0.170754202 C12.4707262,0.490589452 12.0020624,1.20750689 12,2 L12,8 L6,15" id="Path" stroke="#565656"></path>
+                            <rect id="Rectangle" stroke="#E65151" stroke-linecap="square" x="0" y="12" width="6" height="17"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

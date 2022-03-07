@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>13984220-D812-4C4A-9260-C7CFB3935A13</title>
+    <g id="High-Fidelity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DMN---Dialed/Business-Phone-v01---Desktop-L" transform="translate(-239.000000, -2292.000000)">
+            <g id=".o-features__fos-l" transform="translate(238.937500, 2147.000000)">
+                <g id=".m-feature-grid3x2__fos-l" transform="translate(0.000000, 145.000000)">
+                    <g id=".a-graphic__feature-grid-01" transform="translate(0.062500, 0.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                        <g id="Group" transform="translate(3.000000, 2.000000)" stroke-linecap="square" stroke-width="2">
+                            <line x1="29.0322581" y1="1.46549439e-14" x2="29.0322581" y2="6.96774194" id="Path" stroke="#333333"></line>
+                            <polyline id="Path" stroke="#333333" points="34.8387097 16.2580645 34.8387097 11.6129032 29.0322581 6.96774194 23.2258065 11.6129032 23.2258065 16.2580645"></polyline>
+                            <line x1="-3.83693077e-13" y1="34.8387097" x2="34.8387097" y2="34.8387097" id="Path" stroke="#E24747"></line>
+                            <polyline id="Path" stroke="#E24747" points="23.2258065 34.8387097 23.2258065 23.2258065 34.8387097 23.2258065 34.8387097 34.8387097"></polyline>
+                            <polyline id="Path" stroke="#E24747" points="-1.19015908e-13 34.8387097 -1.19015908e-13 18.5806452 16.2580645 18.5806452 16.2580645 34.8387097"></polyline>
+                            <line x1="6" y1="24" x2="11" y2="24" id="Path" stroke="#E24747"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

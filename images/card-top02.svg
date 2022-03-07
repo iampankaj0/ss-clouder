@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="586px" height="30px" viewBox="0 0 586 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>a-graphic__top02-xl</title>
+    <g id="High-Fidelity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="XL-Desktop---Full-Service---v02" transform="translate(-974.000000, -2311.000000)">
+            <g id=".o-product-overview__fos-xl" transform="translate(358.000000, 2141.000000)">
+                <g id=".m-features__grid1x2" transform="translate(1.000000, 170.000000)">
+                    <g id=".m-card__feature--large" transform="translate(615.000000, 0.000000)">
+                        <g id=".a-graphic__top02-xl">
+                            <path d="M5,0 L581,0 C583.761424,-5.07265313e-16 586,2.23857625 586,5 L586,30 L586,30 L5.68434189e-14,30 L5.68434189e-14,5 C5.6505242e-14,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle-Copy-28" fill="#000000"></path>
+                            <rect id="Rectangle-Copy-63" fill="#FFFFFF" x="295" y="0" width="2" height="30"></rect>
+                            <rect id="Rectangle-Copy-71" fill="#B63837" x="279" y="13" width="161" height="2"></rect>
+                            <rect id="Rectangle-Copy-66" fill="#FFFFFF" x="307" y="0" width="2" height="30"></rect>
+                            <rect id="Rectangle-Copy-67" fill="#FFFFFF" x="319" y="0" width="30" height="30"></rect>
+                            <polygon id="Rectangle-Copy-28" fill="#B63837" points="0 15 143 15 143 30 0 30"></polygon>
+                            <polygon id="Rectangle-Copy-29" fill="#E24747" points="143 0 286 0 286 30 143 30"></polygon>
+                            <path d="M438,0 L581,0 C583.761424,-5.07265313e-16 586,2.23857625 586,5 L586,15 L586,15 L438,15 L438,0 Z" id="Rectangle-Copy-30" fill="#E24747"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
